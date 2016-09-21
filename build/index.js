@@ -496,7 +496,7 @@ var Popover = (0, _react.createClass)({
 
     var popoverBody = (0, _utils.arrayify)(this.props.body);
 
-    return _react.DOM.div(popoverProps, _react.DOM.div.apply(_react.DOM, [{ className: 'Popover-body' }].concat(_toConsumableArray(popoverBody))), (0, _react.createElement)(_tip2['default'], tipProps));
+    return _react.DOM.div(popoverProps, _react.DOM.div.apply(_react.DOM, [{ className: 'Popover-body customOne customTwo' }].concat(_toConsumableArray(popoverBody))), (0, _react.createElement)(_tip2['default'], tipProps));
   },
   render: function render() {
     return this.props.children;
