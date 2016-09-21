@@ -106,6 +106,7 @@ var Popover = (0, _react.createClass)({
       enterStop: _react.PropTypes.func.isRequired
     }),
     className: _react.PropTypes.string,
+    class: _react.PropTypes.string.isRequired
     style: _react.PropTypes.object
   },
   mixins: [(0, _reactLayerMixin2['default'])()],
