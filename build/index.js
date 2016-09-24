@@ -479,7 +479,6 @@ var Popover = (0, _react.createClass)({
 
     var _props = this.props;
     var _props$className = _props.className;
-    console.debug('--------------------------------------', _props, '------------------------------------------------');
     var className = _props$className === undefined ? '' : _props$className;
     var _props$style = _props.style;
     var style = _props$style === undefined ? {} : _props$style;
